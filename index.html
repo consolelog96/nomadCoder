@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To Do List</title>
+  <link href="CSS/index.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+  crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <div class="clock">
+      <h3></h3>
+    </div>
+    <div class="greet">
+      <h1>Hello, What's your name?</h1>
+      <form class="login hidden">
+        <input class="signin"type="text" maxlength="10" required>
+      </form>
+    </div>
+    <div class="listContainer">
+      <form class="todo-form">
+        <input class="append" type="text" maxlength="50" placeholder="Add your goals" required>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div class="quotes">
+      <p class="quote"></p>
+      <p class="author"></p>
+    </div>
+  </div>
+<script src="JS/main.js"></script>
+<script src="JS/quotes.js"></script>
+</body>
+</html>
